@@ -2,10 +2,12 @@
 use lithium\action\Response;
 use lithium\net\http\Router;
 
+// GET request
 Router::connect('/', array('http:method' => "GET"), function($request) {
 	return new Response(array('body' => 'Hello world'));
 });
 
+// POST request
 Router::connect('/post', array('http:method' => "POST"), function($request) {
 	return new Response(array('body' => $this->request->data));
 });
