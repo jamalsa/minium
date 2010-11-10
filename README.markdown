@@ -8,4 +8,5 @@ all wacky wacky MVC. Minium is an example of how to do it.
 ## How To Use It?
 Clone this repository and save it in your lithium folders so your folders now consist of
 `app`, `libraries`, and `minium`. Change the contents of `routes.php` and `filters.php` to
-your needs and you are done.
+your needs. Access it via `http://your_domain/path/to/lithium/minium`.
+
